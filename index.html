@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAYATECH MUHENDISLIK</title>
+  <link rel="stylesheet" href="public/css/index.css">
+  
+  
+  
+</head>
+<section>
+  <section>
+
+    <div class="header home" id="home">
+        <div class=" top-header">
+            <nav class="navbar" id="menu">
+                <div class="logo">
+                        <img src="assets/logo.png">
+                </div>
+                <label for="menu-btn" class="menu-icon" id="menu-icon">
+                    <i class="fa-solid fa-bars menu-hmbgr "></i>
+                </label>
+                <div class="menu">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">ANASAYFA</a></li>
+                        <li><a href="pages/parklar.html">MAKİNA PARKLARIMIZ</a></li>
+                        <li><a href="pages/iletişim.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="menu-bg" id="menu-bg"></div>
+            <div class="content">
+                <h1></h1>
+                <h1>GÜCE ŞEKİL
+                 VER
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<script>
+  window.addEventListener("scroll", function () {
+    const logo = document.querySelector(".logo");
+    if (window.scrollY > 0) {
+      logo.classList.add("goster");
+    } else {
+      logo.classList.remove("goster");
+    }
+  });
+</script>
+
+<section>
+  <div class="contact" id="contact">
+      <div class="contact-section">
+          <h2>HAKKIMIZDA</h2>
+          <p>KAYATECH, sac işleme ve metal imalat alanında lazer kesim, abkant büküm, kaynak, talaşlı imalat ve boru büküm gibi üretim yöntemlerini bir araya getiren, yüksek kalite odaklı bir üretim firmasıdır. Çelik, alüminyum, bakır gibi birçok farklı malzemeyi işleyebilen teknolojik altyapımız sayesinde; müşterilerimizin özel ihtiyaçlarına hızlı, hassas ve güvenilir çözümler sunuyoruz.
+
+Kuruluş amacımız; sadece fason imalat yapmakla kalmayıp, zaman içinde kendi ürünlerimizi geliştirmek ve sektörde kalıcı bir marka haline gelmektir. Bu hedef doğrultusunda, üretim kapasitemizi sürekli geliştiriyor, makine parkımızı her geçen gün genişletiyoruz.
+
+Otomotiv ve savunma sanayi başta olmak üzere, yüksek hassasiyet ve kalite gerektiren sektörlere hizmet veriyor; Milvus Robotics, Trendyol, Nissan, Deico gibi öncü firmaları referans alarak çalışma disiplinimizi şekillendiriyoruz.
+
+KAYATECH olarak kalite anlayışımızdan asla taviz vermiyor; müşteri memnuniyetini geçici değil, sürdürülebilir bir güven ilişkisine dönüştürmeyi temel ilke olarak benimsiyoruz.
+
+
+          </p>
+          <div class="contact-section2">
+          <h2>VİZYONUMUZ</h2>
+          <p>Metal işleme ve üretim teknolojilerinde kalite ve güvenin sembolü haline gelerek, kendi ürün gamını geliştiren, ulusal ve uluslararası pazarda tercih edilen lider bir marka olmak.</p>
+          </div>
+          <div class="contact-section3">
+          <h2>MİSYONUMUZ</h2>
+          <p>Lazer kesimden kaynak işlemlerine, talaşlı imalattan boru büküme kadar uzanan üretim kabiliyetlerimizle; farklı sektörlerin ihtiyaçlarına hızlı, güvenilir ve yüksek kaliteli çözümler sunmak. Müşteri memnuniyetini ve sürekliliğini esas alarak, teknolojiye ve insan kaynağına yatırım yaparak sürekli gelişmek.</p>
+          </div>
+        </div>
+        <div class="hizmetlerimiz">
+            <div class="right-info">
+                  <img src="assets/hizmetlerimiz.png" alt="hizmetler" class="hizmetler" width="1000px" height="300px">
+
+              </div>
+        </div>
+      
+  </div>
+</section>
+
+<footer>
+  <div class="top-footer">
+      <img src="assets/logo.png" alt="Logo">
+      <p>© 2025 KAYATECH. Tüm Hakları Saklıdır.</p>
+  </div>
+</footer>
+
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+
+
+<script src="public/js/index.js"></script>
+<script src="public/js/scroll.js"></script>
+</body>
+</html>
