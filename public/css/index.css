@@ -1107,3 +1107,39 @@ footer {
 .right-info img {
     max-width: none !important;
 }
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  .nav-menu li {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .nav-menu a {
+    font-size: 14px;
+    color: white;
+  }
+}
